@@ -2,10 +2,12 @@
 
 You can donwload the source code for FREE!!. Please dont forget to support my YT Channel below link.
 
-YouToube Channel: https://studio.youtube.com/channel/UCx1kXVrqVqgHlcS87IZ12jw
+IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED TO ALL PROGRAM, FEEL FREE TO CONTACT US.
+LEAVE A COMMENT IF YOU LOVED OUR WORK.
 
-Facebook Page: https://www.facebook.com/SourceCodePH2020/
+FACEBOOK PAGE: https://web.facebook.com/SourceCodePH2020/
+FOR MORE PROJECTS :http://www.youtube.com/c/SourceCodePHOnce
 
-Thank you so much 
+THANK YOU FOR DOWNLOADING  AND HAPPY CODING
 
-Mabuhay tayung lahat :) sa mga IT dyan pa support sa YT channel ko salamat. God bless!!
+Autor: Andres P. Jario
