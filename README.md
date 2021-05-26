@@ -10,4 +10,4 @@ FOR MORE PROJECTS :http://www.youtube.com/c/SourceCodePHOnce
 
 THANK YOU FOR DOWNLOADING  AND HAPPY CODING
 
-Autor: Andres P. Jario
+By Andres P. Jario
