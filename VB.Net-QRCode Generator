@@ -1,0 +1,29 @@
+Public Class Generate_QR_Code
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        Dim SD As New SaveFileDialog
+        SD.FileName = "Qrcode"
+        SD.Filter = "PNG Files only (*.png)|*.png"
+        If SD.ShowDialog() = Windows.Forms.DialogResult.OK Then
+            Try
+                PictureBox1.Image.Save(SD.FileName, System.Drawing.Imaging.ImageFormat.Png)
+                MessageBox.Show("Successfully Saved")
+            Catch ex As Exception
+
+            End Try
+        End If
+    End Sub
+
+    Private Sub btnGenerate_Click(sender As Object, e As EventArgs) Handles btnGenerate.Click
+        Dim generate As New MessagingToolkit.Barcode.BarcodeEncoder
+        generate.BackColor = Color.White
+        generate.LabelFont = New Font("Arial", 7, FontStyle.Regular)
+        generate.IncludeLabel = True
+        generate.CustomLabel = TextQrcode.Text
+
+        Try
+            PictureBox1.Image = New Bitmap(generate.Encode(MessagingToolkit.Barcode.BarcodeFormat.QRCode, TextQrcode.Text))
+        Catch ex As Exception
+            PictureBox1.Image = Nothing
+        End Try
+    End Sub
+End Class
